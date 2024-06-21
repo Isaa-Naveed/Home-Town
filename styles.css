@@ -1,0 +1,99 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+}
+#mount:hover{
+    width: 200px;
+}
+#food:hover{
+    width: 200px;
+}
+#forest:hover{
+    width: 200px;
+}
+#rp:hover{
+    width: 200px;
+}
+#hero{
+    height: 343px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ4DGAtIIWvN37b1kr4xDXJ7n4l1UUBIjeJdBYoMSnj0FMdNchbxu0zETn9o3nEsnr9W32eIVWVQDTQimnyeyc9v94ev_exUjevQ9xjug");
+    background-size: cover;
+    margin-bottom: 0px;
+    text-shadow: 0 0 1px;
+}
+#flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.places{
+    width: 198px;
+    height: 226px;
+}
+#mount{
+    width: 120px;
+    height: 120px;
+    background-image: url("https://res.cloudinary.com/www-travelpakistani-com/image/upload/v1661156621/K2_travelapksiatni.jpg");
+    background-size: cover;
+    border-radius: 50px;
+}
+#forest{
+    width: 120px;
+    height: 120px;
+     background-image: url("https://res.cloudinary.com/www-travelpakistani-com/image/upload/v1680168443/Changa_Manga_Forest.jpg");
+    background-size: cover;
+     border-radius: 50px;
+}
+#food{
+    width: 120px;
+    height: 120px;
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarKTiCpnDrQ8aksHNzrSaJroD7P53Qmxnnw&s");
+    background-size: cover;
+     border-radius: 50px;
+}
+#rp{
+    width: 120px;
+    height: 120px;
+     background-image: url("https://tourism.gov.pk/assets/images/NKTC.jpg");
+    background-size: cover;
+     border-radius: 50px;
+}
+#activities{
+
+    background-color: #F1FAEE;
+    padding-top: 6px;
+    margin: 0px;
+    height: 400px;
+    padding: 25px 0px ;
+}
+img {
+    width: 100px;
+}
+#ppf{
+    padding: 15px;
+    width: 180px;
+    height: 220px;
+    border-radius: 30px;
+
+}
+#card{
+    background-color:#A8DADC ;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    border-top: 12px solid #d8cefe;
+    border-bottom: 12px solid #d8cefe;
+    height: 250px;
+    border-radius: 10px;
+    margin: 10px auto;
+
+}
